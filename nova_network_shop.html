@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nova Network Shop</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: #eee;
+        }
+        header {
+            background-color: #4B0082; /* بنفسجي غامق */
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+            color: #ddd;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .card {
+            background: #1e1e1e;
+            border-radius: 10px;
+            width: 220px;
+            box-shadow: 0 0 8px #4B0082aa;
+            text-align: center;
+            transition: transform 0.3s ease;
+            padding: 15px;
+        }
+        .card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 12px #800080cc;
+        }
+        .card img {
+            max-width: 150px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+        }
+        .card h3 {
+            margin: 0 0 10px;
+            font-size: 1.3em;
+            color: #bb86fc;
+        }
+        .price {
+            font-size: 1.2em;
+            color: #ccc;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #777;
+            font-size: 0.9em;
+            border-top: 1px solid #444;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>Nova Network Shop</header>
+    <div class="container">
+        <!-- Gold Crate -->
+        <div class="card">
+            <img src="https://cdn.discordapp.com/attachments/1398004197240344626/1403496990389698641/GOLD_CRATE.png" alt="Gold Crate" />
+            <h3>Gold Crate</h3>
+            <p class="price">25 جنيه (0.5 USD)</p>
+        </div>
+        <!-- Diamond Crate -->
+        <div class="card">
+            <img src="https://postimg.cc/VrxGyVDW/image.png" alt="Diamond Crate" />
+            <h3>Diamond Crate</h3>
+            <p class="price">50 جنيه (1 USD)</p>
+        </div>
+        <!-- Emerald Crate -->
+        <div class="card">
+            <img src="https://postimg.cc/V0FknjCX/image.png" alt="Emerald Crate" />
+            <h3>Emerald Crate</h3>
+            <p class="price">75 جنيه (1.5 USD)</p>
+        </div>
+        <!-- Heavenly Sword -->
+        <div class="card">
+            <img src="https://cdn.discordapp.com/attachments/1398004197240344626/1403503768557999624/Heavenly_Sword.png" alt="Heavenly Sword" />
+            <h3>Heavenly Sword</h3>
+            <p class="price">50 جنيه (1 USD)</p>
+        </div>
+    </div>
+    <footer>© 2025 Nova Network. All rights reserved.</footer>
+</body>
+</html>
